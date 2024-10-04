@@ -1,0 +1,24 @@
+#ifndef UDP_SERVER_H
+#define UDP_SERVER_H
+
+#include <QObject>
+
+class udp_Server : public QObject
+{
+    Q_OBJECT
+    
+public slots:
+    void senddata()
+    {
+        
+    }
+
+public:
+    explicit udp_Server(QObject *parent = 0);
+
+signals:
+
+public slots:
+};
+
+#endif // UDP_SERVER_H
